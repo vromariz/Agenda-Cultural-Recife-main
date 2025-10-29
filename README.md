@@ -3,6 +3,34 @@
 Aplicação web para divulgação de eventos culturais gratuitos ou de baixo custo em Recife e Olinda.  
 Nosso objetivo é aproximar a população da cultura popular e independente, facilitando o acesso a eventos com visibilidade para produtores locais.
 
+## Como Executar o Front-end
+
+1. Entre na pasta do projeto:
+```bash
+cd agenda-cultural
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
+3. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+
+4. Acesse o site em http://localhost:8080
+
+### Páginas Disponíveis
+- / - Página Inicial
+- /eventos - Lista de Eventos
+- /cadastro-evento - Cadastro de Novo Evento
+- /cadastro-usuario - Cadastro de Usuário
+- /detalhes-evento - Detalhes do Evento
+- /favoritos - Eventos Favoritos
+- /acessibilidade - Página de Acessibilidade
+
 ---
 
 ## Equipe
